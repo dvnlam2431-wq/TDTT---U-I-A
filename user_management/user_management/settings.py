@@ -186,3 +186,5 @@ MEDIA_URL = '/media/'
 
 # Đường dẫn thư mục thực tế trên máy tính để lưu file
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# Cấu hình Message Storage chuẩn
+MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
